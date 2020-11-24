@@ -1,40 +1,44 @@
-.container{
-    width: 1200px;
-    margin: auto;
+.container {
+	max-width: vw(1200);
+	margin: 0 auto;
 }
-.col-1{
-    width: 8.33%;
+
+body {
+	margin: 0;
+	font-family: "Proxima Nova", sans-serif;
 }
-.col-2{
-    width: 16.66%;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
 }
-.col-3{
-    width: 24.99%;
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
 }
-.col-4{
-    width: 33.33%;
+
+img {
+	max-width: 100%;
 }
-.col-5{
-    width: 41.66%;
+
+a {
+	text-decoration: none;
 }
-.col-6{
-    width: 50%;
+
+a,
+span {
+	display: inline-block;
 }
-.col-7{
-    width: 58.3%;
-}
-.col-8{
-    width: 66.5%;
-}
-.col-9{
-    width: 74.9%;
-}
-.col-10{
-    width: 83.33%;
-}
-.col-11{
-    width: 91.66%;
-}
-.col-12{
-    width: 100%;
+
+button {
+	outline: none;
+	border: none;
+	cursor: pointer;
 }
